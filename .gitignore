@@ -1,3 +1,10 @@
 #ignore .DS_Store files
 
 *.DS_Store
+
+#ignore downloaded mnist data
+*.npz
+mnist/
+
+#ignore __pycache__ directories
+*/__pycache__/
